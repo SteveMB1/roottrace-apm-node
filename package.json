@@ -1,6 +1,6 @@
 {
   "name": "roottrace-apm",
-  "version": "0.4.3",
+  "version": "0.4.4",
   "description": "RootTrace APM wrapper for Node.js: metrics, transactions, errors, distributed traces, and structured logs with zero dependencies.",
   "license": "Apache-2.0",
   "main": "index.js",

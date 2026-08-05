@@ -15,7 +15,7 @@ const path = require("node:path");
 const { AsyncLocalStorage } = require("node:async_hooks");
 const { performance, monitorEventLoopDelay, PerformanceObserver } = require("node:perf_hooks");
 
-const VERSION = "0.4.3";
+const VERSION = "0.4.4";
 const DEFAULT_API_URL = "https://api.roottrace.io/api";
 const MAX_ENTRIES = 500; // wire cap per ingest request
 const MAX_USER_ENTRIES = MAX_ENTRIES - 8; // headroom so runtime metrics fit under the cap

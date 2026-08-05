@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.4.4 (2026-08-05)
+
+- **No behaviour changes.** The only difference from 0.4.3 is the version the
+  wrapper reports, in `wrapper_version` on each ingest payload and in its
+  User-Agent. This release keeps the Node and Python SDK versions in step. The
+  Python SDK went to 0.4.4 because its 0.4.3 files were deleted from PyPI on
+  2026-08-05 and PyPI never reissues a deleted filename. npm was not affected:
+  0.4.3 was never withdrawn and remains installable.
+
 ## 0.4.3 (2026-07-31)
 
 - **Security sinks.** Every `child_process` entry point (`spawn`, `exec`,
