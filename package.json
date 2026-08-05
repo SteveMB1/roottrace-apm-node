@@ -1,0 +1,37 @@
+{
+  "name": "roottrace-apm",
+  "version": "0.4.3",
+  "description": "RootTrace APM wrapper for Node.js: metrics, transactions, errors, distributed traces, and structured logs with zero dependencies.",
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SteveMB1/roottrace-apm-node"
+  },
+  "keywords": [
+    "apm",
+    "metrics",
+    "tracing",
+    "monitoring",
+    "roottrace"
+  ],
+  "devDependencies": {
+    "eslint": "9.39.0",
+    "mongodb": "7.5.0"
+  }
+}
